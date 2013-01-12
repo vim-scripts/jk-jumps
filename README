@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4395
+
+You can easily use the |j| and |k| commands together with a count to jump up
+and down your file. Setting the |'relativenumber'| option makes this even
+easier. The only problem with this, is that Vim doesn't think of this kind of
+movement as 'jumps'. (see |jump-motions| for the list). This can make using
+the |jumplist| rather confusing.
+This plugin tries to fix that by changing the j and k commands to act as
+jumps, letting you use the jumplist to jump back and forward.
